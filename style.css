@@ -1,4 +1,4 @@
-.main{
+/* .main{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,4 +45,52 @@
     margin-top: 10px;
     text-align:center;
     
+} */
+
+body{
+    background-color: #091921;
 }
+
+
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 320px;
+    width: 300px;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    top: 190px;
+    left: 420px;
+    position: relative;
+    box-shadow: inset 0px 0px 12px white;
+
+   
+}
+#click{
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    top: 220px;
+    left: 520px;
+    border: 1px solid white;
+    box-shadow: inset 0px 0px 7px white;
+}
+
+#click:hover{
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 2px  5px 20px   rgba(0, 0, 0, 0.9)
+    inset;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+
+
